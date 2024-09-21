@@ -1,8 +1,18 @@
-# React + Vite
+# Fuel Consumption Chart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project displays a fuel consumption chart over time using `Recharts` in React. It visualizes fuel level data and consumption over a given timestamp in a line graph format, featuring a clean UI with responsive design. The chart includes smooth transitions and tooltips for enhanced user interaction.
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Fuel Consumption Chart](src/images/fuel-chart.png)
+
+## Technologies Used
+- React.js
+- Recharts
+- CSS for styling
+
+## How to Run
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Start the app: `npm start`.
+4. View the chart on `http://localhost:3000`.
